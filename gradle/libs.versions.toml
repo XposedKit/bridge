@@ -1,0 +1,9 @@
+[versions]
+agp = "9.4.1"
+lsposed = "102.0.0"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
+[libraries]
+lsposed-service = { group = "io.github.libxposed", name = "service", version.ref = "lsposed" }
